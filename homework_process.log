@@ -1,0 +1,128 @@
+2025-09-08 18:14:00,603 - __main__ - INFO - ============================================================
+2025-09-08 18:14:00,604 - __main__ - INFO - 开始燃烧室数字化计量分析
+2025-09-08 18:14:00,604 - __main__ - INFO - 数据文件: 大作业实验数据/8.txt
+2025-09-08 18:14:00,604 - __main__ - INFO - ============================================================
+2025-09-08 18:14:00,604 - __main__ - INFO - 
+阶段1: 数据加载和预处理
+2025-09-08 18:14:00,604 - data_loader - INFO - 开始加载数据文件: 大作业实验数据/8.txt
+2025-09-08 18:14:00,735 - data_loader - INFO - 数据加载完成，形状: (1280, 640, 3)
+2025-09-08 18:14:00,752 - __main__ - ERROR - 分析过程出现错误: axis 2 is out of bounds for array of dimension 0
+2025-09-08 18:15:33,457 - __main__ - INFO - ============================================================
+2025-09-08 18:15:33,457 - __main__ - INFO - 开始燃烧室数字化计量分析
+2025-09-08 18:15:33,457 - __main__ - INFO - 数据文件: 大作业实验数据/8.txt
+2025-09-08 18:15:33,457 - __main__ - INFO - ============================================================
+2025-09-08 18:15:33,457 - __main__ - INFO - 
+阶段1: 数据加载和预处理
+2025-09-08 18:15:33,457 - data_loader - INFO - 开始加载数据文件: 大作业实验数据/8.txt
+2025-09-08 18:15:33,581 - data_loader - INFO - 数据加载完成，形状: (1280, 640, 3)
+2025-09-08 18:15:33,600 - data_loader - INFO - 识别出无效点: 728553/819200 (88.9%)
+2025-09-08 18:15:33,617 - data_loader - INFO - 识别出无效点: 728553/819200 (88.9%)
+2025-09-08 18:15:33,622 - data_loader - INFO - 有效点数量: 90647
+2025-09-08 18:15:33,623 - data_loader - INFO - 点云统计信息:
+2025-09-08 18:15:33,623 - data_loader - INFO -   总点数: 819200
+2025-09-08 18:15:33,623 - data_loader - INFO -   有效点数: 90647
+2025-09-08 18:15:33,623 - data_loader - INFO -   有效率: 11.1%
+2025-09-08 18:15:33,623 - data_loader - INFO -   X范围: [-41.219, 49.304]
+2025-09-08 18:15:33,623 - data_loader - INFO -   Y范围: [-0.539, 319.533]
+2025-09-08 18:15:33,623 - data_loader - INFO -   Z范围: [-0.204, 14.473]
+2025-09-08 18:15:33,624 - __main__ - INFO - 
+阶段2: 点云滤波处理
+2025-09-08 18:15:33,624 - filters - INFO - 开始应用完整滤波流水线
+2025-09-08 18:15:33,624 - filters - INFO - 开始距离阈值滤波，阈值: 11.0cm
+2025-09-08 18:15:33,631 - filters - INFO - 距离阈值滤波完成，滤除34400个点
+2025-09-08 18:15:33,637 - filters - INFO - 开始孤立点滤波，最小连续点数阈值: 15
+2025-09-08 18:15:33,678 - filters - INFO - 孤立点滤波完成，滤除134424个孤立点
+2025-09-08 18:15:33,684 - filters - INFO - 开始K近邻统计滤波，K=50, 阈值=3.0σ
+2025-09-08 18:21:21,678 - __main__ - INFO - ============================================================
+2025-09-08 18:21:21,678 - __main__ - INFO - 开始燃烧室数字化计量分析
+2025-09-08 18:21:21,678 - __main__ - INFO - 数据文件: 大作业实验数据/8.txt
+2025-09-08 18:21:21,678 - __main__ - INFO - ============================================================
+2025-09-08 18:21:21,678 - __main__ - INFO - 
+阶段1: 数据加载和预处理
+2025-09-08 18:21:21,678 - data_loader - INFO - 开始加载数据文件: 大作业实验数据/8.txt
+2025-09-08 18:21:21,804 - data_loader - INFO - 数据加载完成，形状: (1280, 640, 3)
+2025-09-08 18:21:21,823 - data_loader - INFO - 识别出无效点: 728553/819200 (88.9%)
+2025-09-08 18:21:21,840 - data_loader - INFO - 识别出无效点: 728553/819200 (88.9%)
+2025-09-08 18:21:21,846 - data_loader - INFO - 有效点数量: 90647
+2025-09-08 18:21:21,847 - data_loader - INFO - 点云统计信息:
+2025-09-08 18:21:21,847 - data_loader - INFO -   总点数: 819200
+2025-09-08 18:21:21,847 - data_loader - INFO -   有效点数: 90647
+2025-09-08 18:21:21,847 - data_loader - INFO -   有效率: 11.1%
+2025-09-08 18:21:21,847 - data_loader - INFO -   X范围: [-41.219, 49.304]
+2025-09-08 18:21:21,847 - data_loader - INFO -   Y范围: [-0.539, 319.533]
+2025-09-08 18:21:21,847 - data_loader - INFO -   Z范围: [-0.204, 14.473]
+2025-09-08 18:21:21,847 - __main__ - INFO - 
+阶段2: 点云滤波处理
+2025-09-08 18:21:21,848 - filters - INFO - 开始应用完整滤波流水线
+2025-09-08 18:21:21,848 - filters - INFO - 开始距离阈值滤波，阈值: 11.0cm
+2025-09-08 18:21:21,857 - filters - INFO - 距离阈值滤波完成，滤除34400个点
+2025-09-08 18:21:21,863 - filters - INFO - 开始孤立点滤波，最小连续点数阈值: 15
+2025-09-08 18:21:21,905 - filters - INFO - 孤立点滤波完成，滤除134424个孤立点
+2025-09-08 18:21:21,911 - filters - INFO - 开始K近邻统计滤波，K=50, 阈值=3.0σ
+2025-09-08 18:21:21,928 - filters - INFO - 点云过大(650376个点)，使用采样方法优化计算
+2025-09-08 18:21:22,319 - filters - INFO - 使用简化方法检测离群点...
+2025-09-08 21:58:43,423 - __main__ - INFO - ============================================================
+2025-09-08 21:58:43,423 - __main__ - INFO - 开始燃烧室数字化计量分析
+2025-09-08 21:58:43,423 - __main__ - INFO - 数据文件: 大作业实验数据/8.txt
+2025-09-08 21:58:43,423 - __main__ - INFO - ============================================================
+2025-09-08 21:58:43,423 - __main__ - INFO - 
+阶段1: 数据加载和预处理
+2025-09-08 21:58:43,423 - data_loader - INFO - 开始加载数据文件: 大作业实验数据/8.txt
+2025-09-08 21:58:43,555 - data_loader - INFO - 数据加载完成，形状: (1280, 640, 3)
+2025-09-08 21:58:43,575 - data_loader - INFO - 识别出无效点: 728553/819200 (88.9%)
+2025-09-08 21:58:43,589 - data_loader - INFO - 识别出无效点: 728553/819200 (88.9%)
+2025-09-08 21:58:43,595 - data_loader - INFO - 有效点数量: 90647
+2025-09-08 21:58:43,596 - data_loader - INFO - 点云统计信息:
+2025-09-08 21:58:43,596 - data_loader - INFO -   总点数: 819200
+2025-09-08 21:58:43,596 - data_loader - INFO -   有效点数: 90647
+2025-09-08 21:58:43,596 - data_loader - INFO -   有效率: 11.1%
+2025-09-08 21:58:43,596 - data_loader - INFO -   X范围: [-41.219, 49.304]
+2025-09-08 21:58:43,596 - data_loader - INFO -   Y范围: [-0.539, 319.533]
+2025-09-08 21:58:43,596 - data_loader - INFO -   Z范围: [-0.204, 14.473]
+2025-09-08 21:58:43,596 - __main__ - INFO - 
+阶段2: 点云滤波处理
+2025-09-08 21:58:43,596 - filters - INFO - 开始应用完整滤波流水线
+2025-09-08 21:58:43,597 - filters - INFO - 开始距离阈值滤波，阈值: 11.0cm
+2025-09-08 21:58:43,604 - filters - INFO - 距离阈值滤波完成，滤除34400个点
+2025-09-08 21:58:43,610 - filters - INFO - 开始孤立点滤波，最小连续点数阈值: 15
+2025-09-08 21:58:43,650 - filters - INFO - 孤立点滤波完成，滤除134424个孤立点
+2025-09-08 21:58:43,657 - filters - INFO - 开始多线程K近邻统计滤波，K=50, 阈值=3.0σ
+2025-09-08 21:58:43,657 - filters - INFO - 进程ID: 15332
+2025-09-08 21:58:43,674 - filters - INFO - 有效点数量: 650376
+2025-09-08 21:58:43,674 - filters - INFO - 使用 8 个线程，每块 20324 个点
+2025-09-08 21:58:43,674 - filters - INFO - 数据分成 33 块进行并行处理
+2025-09-08 21:58:43,689 - filters - ERROR - 块 8 处理异常: too many values to unpack (expected 4)
+2025-09-08 21:58:43,689 - filters - ERROR - 块 30 处理异常: too many values to unpack (expected 4)
+2025-09-08 21:58:43,689 - filters - ERROR - 块 11 处理异常: too many values to unpack (expected 4)
+2025-09-08 21:58:43,689 - filters - ERROR - 块 22 处理异常: too many values to unpack (expected 4)
+2025-09-08 21:58:43,689 - filters - ERROR - 块 26 处理异常: too many values to unpack (expected 4)
+2025-09-08 21:58:43,689 - filters - ERROR - 块 4 处理异常: too many values to unpack (expected 4)
+2025-09-08 21:58:43,689 - filters - ERROR - 块 29 处理异常: too many values to unpack (expected 4)
+2025-09-08 21:58:43,689 - filters - ERROR - 块 7 处理异常: too many values to unpack (expected 4)
+2025-09-08 21:58:43,689 - filters - ERROR - 块 18 处理异常: too many values to unpack (expected 4)
+2025-09-08 21:58:43,689 - filters - ERROR - 块 0 处理异常: too many values to unpack (expected 4)
+2025-09-08 21:58:43,689 - filters - ERROR - 块 15 处理异常: too many values to unpack (expected 4)
+2025-09-08 21:58:43,689 - filters - ERROR - 块 14 处理异常: too many values to unpack (expected 4)
+2025-09-08 21:58:43,689 - filters - ERROR - 块 25 处理异常: too many values to unpack (expected 4)
+2025-09-08 21:58:43,689 - filters - ERROR - 块 17 处理异常: too many values to unpack (expected 4)
+2025-09-08 21:58:43,689 - filters - ERROR - 块 19 处理异常: too many values to unpack (expected 4)
+2025-09-08 21:58:43,689 - filters - ERROR - 块 32 处理异常: too many values to unpack (expected 4)
+2025-09-08 21:58:43,689 - filters - ERROR - 块 24 处理异常: too many values to unpack (expected 4)
+2025-09-08 21:58:43,689 - filters - ERROR - 块 13 处理异常: too many values to unpack (expected 4)
+2025-09-08 21:58:43,689 - filters - ERROR - 块 28 处理异常: too many values to unpack (expected 4)
+2025-09-08 21:58:43,689 - filters - ERROR - 块 16 处理异常: too many values to unpack (expected 4)
+2025-09-08 21:58:43,689 - filters - ERROR - 块 21 处理异常: too many values to unpack (expected 4)
+2025-09-08 21:58:43,689 - filters - ERROR - 块 10 处理异常: too many values to unpack (expected 4)
+2025-09-08 21:58:43,689 - filters - ERROR - 块 9 处理异常: too many values to unpack (expected 4)
+2025-09-08 21:58:43,689 - filters - ERROR - 块 20 处理异常: too many values to unpack (expected 4)
+2025-09-08 21:58:43,689 - filters - ERROR - 块 31 处理异常: too many values to unpack (expected 4)
+2025-09-08 21:58:43,689 - filters - ERROR - 块 3 处理异常: too many values to unpack (expected 4)
+2025-09-08 21:58:43,689 - filters - ERROR - 块 12 处理异常: too many values to unpack (expected 4)
+2025-09-08 21:58:43,689 - filters - ERROR - 块 2 处理异常: too many values to unpack (expected 4)
+2025-09-08 21:58:43,690 - filters - ERROR - 块 6 处理异常: too many values to unpack (expected 4)
+2025-09-08 21:58:43,690 - filters - ERROR - 块 27 处理异常: too many values to unpack (expected 4)
+2025-09-08 21:58:43,690 - filters - ERROR - 块 23 处理异常: too many values to unpack (expected 4)
+2025-09-08 21:58:43,690 - filters - ERROR - 块 5 处理异常: too many values to unpack (expected 4)
+2025-09-08 21:58:43,690 - filters - ERROR - 块 1 处理异常: too many values to unpack (expected 4)
+2025-09-08 21:58:43,690 - filters - INFO - 合并多线程计算结果...
+2025-09-08 21:58:43,690 - __main__ - ERROR - 分析过程出现错误: need at least one array to concatenate
